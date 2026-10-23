@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-Store Demo
 
-## Getting Started
+## What is it?
 
-First, run the development server:
+A demo e-commerce web application built with **Next.js** and integrated with **Stripe** for payment processing. It demonstrates the core components of an online store, including product retrieval, shopping cart functionality, and payment integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Why did I build it?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I built this project while following a Udemy tutorial to strengthen my web development skills and gain practical experience building a full-stack web application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+My goals were to:
+- Understand how Next.js handles page routing and server-side API endpoints.
+- Learn how to retrieve product and pricing information through the Stripe API.
+- Explore how third-party payment platforms can be integrated into a web application.
+- Practise debugging, environment configuration, and working with external APIs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How did I build it?
 
-## Learn More
+I developed the application using **Next.js and JavaScript**, following the tutorial's implementation and adapting the code as I worked through the project.
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:** Built the e-commerce interface using Next.js and React.
+- **API integration:** Created API routes to retrieve active products and their associated prices from Stripe.
+- **Payment platform:** Integrated Stripe to support payment-related functionality.
+- **Configuration:** Used environment variables to manage sensitive API credentials.
+- **Development workflow:** Used npm to manage dependencies and Git for version control.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- React
+- JavaScript
+- Stripe API
+- CSS
+- Git and GitHub
 
-## Deploy on Vercel
+## Project Status
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is a learning project developed as part of a Udemy tutorial. Its purpose is to practise web development concepts and third-party API integration rather than provide a production-ready e-commerce platform.
