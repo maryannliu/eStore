@@ -1,6 +1,8 @@
 import ImageBanner from "@/components/ImageBanner";
 import Products from "@/components/Products";
 
+export const dynamic = 'force-dynamic';
+
 export async function getProducts() {
   try {
 
