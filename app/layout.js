@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
               <div className="header-content">
 
                 <Link href={"/"}>
-                  <h1>Mary Ann&apos; Art Studio</h1>
+                  <h1>Mary Ann&apos;s Art Studio</h1>
                 </Link>
 
 
